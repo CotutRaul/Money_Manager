@@ -1,0 +1,14 @@
+01/12/2021 Steag -10.0
+02/12/2021 Restaurant -35.0
+04/12/2021 Intalnire -90.0
+06/12/2021 Profi -25.0
+06/12/2021 Fast food -15.0
+10/12/2021 Salar 2000.0
+20/12/2021 Paine -5.5
+22/12/2021 Motorina -100.0
+22/12/2021 Tigari -23.5
+23/12/2021 Motorina -300.0
+24/12/2021 Secret Santa -25.0
+24/12/2021 Colindat 528.0
+25/12/2021 Cadouri de Craciun -250.0
+30/12/2021 Test -1.0
