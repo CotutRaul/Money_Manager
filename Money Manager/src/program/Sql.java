@@ -19,9 +19,21 @@ public class Sql {
 			Connection connection = DriverManager.getConnection(dbURL,username,password);
 			st = connection.createStatement();
 		} catch (SQLException e) {
-			System.out.println("Error! Not Connected to Oracle database!");
+			
 			e.printStackTrace();
 		}
+	}
+	public void ClosSql()
+	{
+		try {
+			st.close();
+			connection.close();
+		} catch (SQLException e) {
+			System.out.println("Error! Couldn't close database connection!");
+			e.printStackTrace();
+		}
+		
+		
 	}
 
 

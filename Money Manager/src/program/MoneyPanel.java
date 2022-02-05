@@ -41,7 +41,7 @@ public class MoneyPanel {
 		    }  
 		 });
 		
-		//addMoneyFromFile();
+		addMoneyFromFile();
 		
 		try {
 			addMoneyFromDatabase(DatePanel.shortDate);
@@ -49,7 +49,7 @@ public class MoneyPanel {
 			e1.printStackTrace();
 		}
 		FramePanel.frame.add(moneyPanel);
-
+		
 	}
 	
 	/**

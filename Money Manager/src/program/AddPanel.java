@@ -82,12 +82,12 @@ public class AddPanel {
 		addFrame.add(addDate);
 		
 		JTextField nameField = new JTextField();
-		nameField.setBounds(10,50,300,50);
+		nameField.setBounds(10,50,410,50);
 		nameField.setFont(new Font("Times New Roman",Font.PLAIN,25));
 		addFrame.add(nameField);
 		
 		JTextField priceField = new JTextField();
-		priceField.setBounds(10,150,300,50);
+		priceField.setBounds(10,150,410,50);
 		priceField.setFont(new Font("Times New Roman",Font.PLAIN,25));
 		addFrame.add(priceField);
 		
@@ -96,7 +96,7 @@ public class AddPanel {
 		Date date = new Date(System.currentTimeMillis());
 		
 		dateField.setText(formatter.format(date));
-		dateField.setBounds(10,250,300,50);
+		dateField.setBounds(10,250,410,50);
 		dateField.setFont(new Font("Times New Roman",Font.PLAIN,25));
 		addFrame.add(dateField);
 		

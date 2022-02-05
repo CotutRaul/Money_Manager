@@ -38,6 +38,7 @@ public class UserPanel {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				String aux = JOptionPane.showInputDialog("Change name",name);
+				if(aux != null)
 				if(aux.length()!=0 && aux.length()<15)
 				{
 					name=aux;

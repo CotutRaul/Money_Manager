@@ -7,7 +7,6 @@ import javax.swing.border.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
 public class Money{
 	int ID;
 	int position;
@@ -210,19 +209,19 @@ public class Money{
 		
 		JTextField nameField = new JTextField();
 		nameField.setText(name);
-		nameField.setBounds(10,50,300,50);
+		nameField.setBounds(10,50,410,50);
 		nameField.setFont(new Font("Times New Roman",Font.PLAIN,25));
 		editFrame.add(nameField);
 		
 		JTextField priceField = new JTextField();
 		priceField.setText(String.valueOf(price));
-		priceField.setBounds(10,150,300,50);
+		priceField.setBounds(10,150,410,50);
 		priceField.setFont(new Font("Times New Roman",Font.PLAIN,25));
 		editFrame.add(priceField);
 		
 		JTextField dateField = new JTextField();
 		dateField.setText(date);
-		dateField.setBounds(10,250,300,50);
+		dateField.setBounds(10,250,410,50);
 		dateField.setFont(new Font("Times New Roman",Font.PLAIN,25));
 		editFrame.add(dateField);
 		
